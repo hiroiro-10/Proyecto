@@ -1,0 +1,242 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('https://i.ibb.co/2hCJ9Hg/Fondo-Lecciones.png');
+  background-size: cover;
+  background-position: center;
+  height: 150vh;
+  margin: 0;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: -1;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    background-color: #EEEEEE;
+}
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1px;
+}
+
+.logo img {
+    width: 200px;
+}
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.buy-button {
+    background-color: #f56937;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.image {
+    height: 429px;
+  width: 522px;
+  background-image: url("https://i.ibb.co/nckD9qY/Caratula-de-ghost-of-tshusima-psd.png");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  padding: 0px;
+  border-radius: 10px;
+  margin-bottom: 0 px;
+}
+
+h1, h2 {
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+
+p {
+    margin-bottom: 10px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 30px;
+    text-align: center
+}
+
+.character-card-container {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.information 1 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.buy-button 2 {
+    background-color: #000000;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.character-card-container2 {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.information 2 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.image 2 {
+    height: 334px;
+  width: 443px;
+  background-image: url("https://i.ibb.co/sqTt8gQ/81-XPzbo-I34-S-1.png");
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  border-radius: 10px;
+  margin-bottom: 0 px;
+}
+
+
+.character-card-container 3 {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.image 3 {
+    height: 336px;
+  width: 344px;
+  background-image: url("https://i.ibb.co/SmfSQN3/13bbb49152b19d9276a621fdea4e252f-2.png");
+  background-size: cover;
+  background-position: center;
+  padding: 0px;
+  border-radius: 10px;
+  margin-bottom: 0 px;
+}
+.information 3 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.character-card-container 4 {
+  position: relative;
+  width: 100%;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.information 4 {
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.container-sony {
+    background-color: #757575;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+    margin-top: 60px;
+    
+}
+
+.left-sony {
+    margin-left: 200px;
+  display: flex;
+  align-items: center;
+}
+
+.logo-sony {
+  height: 40px;
+  margin: 0 10px;
+}
+
+.right-sony {
+  display: flex;
+  align-items: center;
+}
+
+.right-sony p {
+  margin-left: 200px;
+  margin-bottom: 20px;
+    margin-top: 20px;
+  margin-right: 200px;
+  font-size: 14px;
+}
+
+.social-sony {
+    margin-right: 200px;
+  display: flex; 
+  align-items: center;
+}
+
+.social-sony img {
+  margin: 0 10px; 
+}
